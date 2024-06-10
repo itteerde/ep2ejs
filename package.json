@@ -1,0 +1,29 @@
+{
+  "name": "ep2ejs",
+  "version": "1.0.0",
+  "description": "Eclipse Phase 2nd Edition library (game system reasoning)",
+  "main": "./bin/index.js",
+  "type": "module",
+  "bin": {
+    "ep2ejs": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/itteerde/ep2ejs.git"
+  },
+  "keywords": [
+    "ep2e"
+  ],
+  "author": "Erik Itter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itteerde/ep2ejs/issues"
+  },
+  "homepage": "https://github.com/itteerde/ep2ejs#readme",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
