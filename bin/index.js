@@ -2,12 +2,14 @@
 
 import { program } from "commander";
 
+
+
 program
     .version("1.0.0")
     .description("Eclipse Phase 2nd Edition Tools")
-    .option("-n, --name <type>", "Erik Itter")
+    .option("-f, --file <path>", "data.json")
     .action((options) => {
-        console.log(`Hey, ${options.name}!`);
+        console.log(`Hey, ${options.file}!`);
     });
 
 program.parse(process.argv);
