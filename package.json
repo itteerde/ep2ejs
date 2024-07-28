@@ -25,6 +25,7 @@
   "homepage": "https://github.com/itteerde/ep2ejs#readme",
   "dependencies": {
     "commander": "^12.1.0",
+    "inquirer": "^9.2.23",
     "level": "^8.0.1"
   }
 }
